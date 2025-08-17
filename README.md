@@ -1,16 +1,16 @@
 # IMDB Movie Review Analysis
-###Overview
+### Overview
 Dataset IMDB movie Review ini berisi 2 label yaitu sentiment dan review. Sentiment adalah label yang berisi sentiment positif atau negatif, sedangkan review adalah label yang berisi review dari user imdb terhadap film tertentu. Hal yang ingin dianalisis dari dataset ini adalah indikator apa saja yang menjadi bahan review suatu film misalnya entah dari sisi dialog, plot, akting, dsb, bagaimana aspek film yang disukai dan tidak disukai oleh reviewer, dan film apa saja yang terindikasi berkualitas dari review.
 
 ---
 
-###Raw Dataset Link
+### Raw Dataset Link
 Link 1 : https://www.kaggle.com/api/v1/datasets/download/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 Link 2 :https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
 ---
 
-###Insight & Findings
+### Insight & Findings
 Dari analisis yang dilakukan berdasarkan 50 data. Dapat diketahui bahwa umunya para reviewer di IMDB biasa membuat sentimen atau review terhadap film yang mereka tonton berdasarkan :
 1. penilaian terhadap alur cerita, orisinalitas, dan perkembangan plot. Narasi yang menarik sering dipuji, sementara plot yang berbelit-belit atau mudah ditebak dikritik. 
 2. Kualitas akting, kredibilitas, dan kedalaman penggambaran karakter yang ada pada film.
@@ -35,5 +35,5 @@ Selain itu, dari dataset ini juga bisa diketahui bahwa ada beberapa aspek film y
 8. Film dengan sinematografi, desain set, dan efek khusus yang mengesankan
 ---
 
-###Ai Support Explanation
+### Ai Support Explanation
 Dalam Proses Analisis AI model IBM granite-3.3-8b-instruct digunakan dalam mencari insight dan findings dari label Sentimen, label review yang berisi positif dan negatif itu sendiri digunakan untuk memilah bagaimana aspek dan indikator film yang baik lewat analisis sentimen yang dibantu oleh model.
